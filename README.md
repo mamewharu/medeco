@@ -1,24 +1,20 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# アプリケーション名
+- medeco
 
-Things you may want to cover:
+# 概要
+- 部署ごとのコミュニケーションツール(今回は臨床検査科と看護部を繋ぐ)
 
-* Ruby version
+# 制作背景
+- 部署間で生じるコミュニケーションのヒューマンエラーを解決したい
+- 誰が何をやったのか残るので同じことを繰り返す必要がなくなる
 
-* System dependencies
+# DEMO
 
-* Configuration
+# 実装予定の内容
+- 
 
-* Database creation
+# DB設計
 
-* Database initialization
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
