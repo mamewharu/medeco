@@ -60,7 +60,7 @@
 | name       | string     | null: false |
 | password   | string     | null: false |
 | ID         | integer    | null: false |
-| occupation | text       | null: false |
+| occupation | string     | null: false |
 
 ### Association
 - has_many :rooms, through: :user_rooms
