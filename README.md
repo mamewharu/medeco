@@ -77,21 +77,21 @@
 - has_many   :users
 
 ## user_roomテーブル
-| Column   | Type       | Options                        |
-| -------- | ---------- | ------------------------------ |
-| user     | references | null: false, foreign_key: true |
-| room     | references | null: false, foreign_key: true |
+| Column   | Type       | Options           |
+| -------- | ---------- | ----------------- |
+| user     | references | foreign_key: true |
+| room     | references | foreign_key: true |
 
 ### Association
 - belongs_to :user
 - belongs_to :room
 
 ## messageテーブル
-| Column   | Type       | Options                        |
-| -------- | ---------- | ------------------------------ |
-| text     | string     | null: false                    |
-| user     | references | null: false, foreign_key: true |
-| room     | references | null: false, foreign_key: true |
+| Column   | Type       | Options           |
+| -------- | ---------- | ----------------- |
+| text     | string     | null: false       |
+| user     | references | foreign_key: true |
+| room     | references | foreign_key: true |
 
 ### Association
 - has_many :users
