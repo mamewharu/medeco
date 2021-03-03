@@ -10,13 +10,48 @@
 
 .side-header {
   height: 100px;
-  padding: 0, 20px;
+  padding: 0 20px;
+  background-color:lawngreen;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-name a{
+  font-size: 18px;
+  color: #253141;
+  text-decoration: none;
+}
+
+.create-room a{
+  font-size: 15px;
+  border: 2px solid white;
+  background-color: lawngreen;
+  padding: 14px;
+  color: #253141;
+  text-decoration: none;
+}
+
+.create {
+  background-color: lawngreen;
+  font-size: 10px;
+  color: coral;
 }
 
 .side-rooms {
   background-color: #2F3E51;
   height: calc(100vh - 100px);
-  padding: 0, 20px;
+  padding: 0 20px;
+  overflow: scroll;
+}
+
+.room {
+   padding: 20px 0 40px;
+}
+
+.room-name a {
+ text-emphasis: none;
+  color: white;
 }
 
 .main {
@@ -27,17 +62,17 @@
 
 .main-header {
   height: 100px;
-  padding: 0, 40px;
+  padding: 0 40px;
 }
 
 .messages {
   background-color: #FAFAFA;
   height: calc(100vh - 100px - 90px);
-  padding: 46px 40px, 0;
+  padding: 46px 40px 0;
 }
 
 .form {
   background-color: lightgreen;
   height: 90px;
-  padding: 20px, 40px;
+  padding: 20px 40px;
 }
