@@ -1,3 +1,11 @@
+html {
+  height: 100%;
+  }
+ body {
+  width: clac(100vw - calc(100vw - 100%));
+  height: 100%;
+  }
+
 .wrapper {
   display: flex;
 }
