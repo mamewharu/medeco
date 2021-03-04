@@ -58,6 +58,7 @@
 | Column     | Type       | Options     |
 | ---------- | ---------- | ----------- |
 | name       | string     | null: false |
+| email      | string     | null: false |
 | password   | string     | null: false |
 | ID         | integer    | null: false |
 | occupation | string     | null: false |
