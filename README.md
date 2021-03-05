@@ -64,9 +64,9 @@
 | occupation | string     | null: false |
 
 ### Association
-- has_many :rooms, through: :user_rooms
+- has_many :rooms, through: :room_users
 - has_many :messages
-- has_many :user_rooms
+- has_many :room_users
 
 ## roomテーブル
 | Column   | Type       | Options     |
@@ -74,7 +74,7 @@
 | name     | string     | null: false |
 
 ### Association
-- has_many   :user_room, through: :user_rooms
+- has_many   :users, through: :room_users
 - has_many   :users
 
 ## user_roomテーブル
