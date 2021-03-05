@@ -72,12 +72,25 @@ body {
   height: 100px;
   padding: 0 40px;
   display: flex;
+  justify-content: space-between;
 }
 
 .main-name {
   font-size: 24px;
   color: #253141;
   margin-top: 36px;
+}
+
+.log_out {
+  margin-top: 40px;
+}
+
+.log_out a {
+  text-decoration: none;
+  background-color: red;
+  color: white;
+  border: 1px;
+  padding: 20px;
 }
 
 .messages {

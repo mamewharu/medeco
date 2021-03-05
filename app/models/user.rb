@@ -4,7 +4,9 @@ class User < ApplicationRecord
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :validatable
 
-  validates :name, presence: true
-  validates :staff_num, presence: true
-  validates :occupation, presence: true
+         with_options presence: true do
+          validates :name
+          validates :staff_num, numericality: {with: /\A[0-9]+\z/, message: 'Half-width number' }
+          validates :occupation
+         end
 end
