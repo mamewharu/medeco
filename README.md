@@ -75,6 +75,7 @@
 ### Association
 - has_many   :users, through: :room_users
 - has_many   :users
+- has_many :messages
 
 ## user_roomテーブル
 | Column   | Type       | Options           |
@@ -89,10 +90,10 @@
 ## messageテーブル
 | Column   | Type       | Options           |
 | -------- | ---------- | ----------------- |
-| text     | string     | null: false       |
+| text     | string     |                   |
 | user     | references | foreign_key: true |
 | room     | references | foreign_key: true |
 
 ### Association
-- has_many :users
-- has_many :rooms
+- belongs_to :user
+- belongs_to :room

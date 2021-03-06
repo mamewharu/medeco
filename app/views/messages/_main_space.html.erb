@@ -1,6 +1,6 @@
 <div class="main-header">
     <div class="main-name">
-      hogefuga
+      <%= @room.name %>
     </div>
     <div class="log_out">
     <%=link_to "退出する", root_path %>
@@ -8,30 +8,16 @@
 </div>
 
 <div class="messages">
-  <div class="message">
-   <div class="upper-massage">
-     <div class="message-user">
-       Tom
-     </div>
-     <div class="message-date">
-       2021/3/3(wed) 19:45:30
-     </div>
-   </div>
-   <div class="lower-message">
-      <div class="message-text">
-       おはよう
-      </div>
-   </div>
-  </div>
+  <%= render partial: 'message', collection: @messages %>
 </div>
 
-<div class="form">
+<%= form_with model: [@room, @message], class: "form", local: true do |f| %>
    <div class="form-input">
-     <input class="form-message" placeholder= "メッセージを入力して下さい">
+   <%= f.text_field :text, class: 'form-message', placeholder:'メッセージを入力して下さい' %>
      <label class="form-image">
        <span class="image-file">画像</span>
-        <input type="file" class="hidden">
+       <%= f.file_field :image, class: 'hidden' %>
      </label>
    </div>
-     <input class="form-submit" type="submit" value="送信">
-</div>
+   <%= f.submit '送信', class: 'form-submit' %>
+<% end %>
