@@ -172,3 +172,15 @@ body {
 .hidden {
   display: none;
 }
+
+/* room/_main_space_top */
+.upper-massage-top {
+  padding: 10px 0;
+}
+
+.form-input {
+  background-color:white;
+  width: 100%;
+  display: flex;
+}
+/* room/_main_space_top */
