@@ -1,6 +1,6 @@
 class Message < ApplicationRecord
-  belongs_to :user
   belongs_to :room
+  belongs_to :user
   has_one_attached :image
 
   validates :text, presence: true, unless: :was_attached?
