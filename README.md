@@ -89,7 +89,7 @@
 ## messageテーブル
 | Column   | Type       | Options           |
 | -------- | ---------- | ----------------- |
-| text     | string     | null: false       |
+| text     | string     |                   |
 | user     | references | foreign_key: true |
 | room     | references | foreign_key: true |
 
