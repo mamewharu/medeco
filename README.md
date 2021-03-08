@@ -7,6 +7,7 @@
 - 部署ごとのコミュニケーションツール
 
 # URL
+- https://medeco.herokuapp.com/
 
 # テスト用アカウント
 ## ユーザー認証
