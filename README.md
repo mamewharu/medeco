@@ -99,7 +99,7 @@ VSCode
 
 # DB設計
 ## ER図
-[medeco](https://user-images.githubusercontent.com/77311098/109117309-2a5c9b80-7785-11eb-9d40-8bfc8ff7e16f.png)
+[medeco](https://user-images.githubusercontent.com/77311098/110264786-71585580-7ffd-11eb-966b-277d6deb0bae.png)
 
 ## userテーブル
 | Column     | Type       | Options     |
