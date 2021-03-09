@@ -105,6 +105,10 @@ body {
   overflow: scroll;
 }
 
+.message {
+  margin: 10px 0 0 0 ;
+}
+
 .upper-massage {
   display: flex;
   padding: 10px 0;
