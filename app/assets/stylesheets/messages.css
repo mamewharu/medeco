@@ -92,8 +92,8 @@ body {
 
 .log_out a {
   text-decoration: none;
-  background-color: red;
-  color: white;
+  background-color: #FF6666;
+  color: black;
   border: 1px;
   padding: 20px;
 }
@@ -174,7 +174,7 @@ body {
 .form-image{
   font-size: 14px;
   background-color:orange;
-  color: #2f3e51;
+  color: #2F3E51;
   width: 60px;
   padding: 12px;
   margin: 5px 10px;
