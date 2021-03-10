@@ -1,9 +1,10 @@
 <div class="side-header">
   <div class="header-name">
-   <%= link_to current_user.name, edit_user_path(current_user)%>
+   <%= link_to "#{current_user.name}さん", edit_user_path(current_user)%>
+   <h6>ようこそ!</h6>
   </div>
   <div class="create-room">
-   <%= link_to "チャットを作成する", new_room_path %>
+   <%= link_to "ルーム作成はこちら", new_room_path %>
   </div>
 </div>
 
